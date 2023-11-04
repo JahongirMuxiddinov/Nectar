@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.8.0)
+  - CountryPickerView (3.3.0)
+  - OTPFieldView (1.0.1)
+  - PhoneNumberKit (3.7.4):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.7.4)
+    - PhoneNumberKit/UIKit (= 3.7.4)
+  - PhoneNumberKit/PhoneNumberKitCore (3.7.4)
+  - PhoneNumberKit/UIKit (3.7.4):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - CountryPickerView
+  - OTPFieldView
+  - PhoneNumberKit
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CountryPickerView
+    - OTPFieldView
+    - PhoneNumberKit
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  PhoneNumberKit: e3c4dc9f65bc2036639898095c2ab1ef89348f64
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
+
+PODFILE CHECKSUM: 007ed38eccbcd2e1add65bc824e94b1bd3b866fc
+
+COCOAPODS: 1.12.1

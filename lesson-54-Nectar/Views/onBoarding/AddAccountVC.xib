@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddAccountVC" customModule="lesson_54_Nectar" customModuleProvider="target">
+            <connections>
+                <outlet property="connectlbl" destination="8kH-jJ-2Ag" id="3kV-X5-36B"/>
+                <outlet property="facebookBtn" destination="6Yh-2b-qOK" id="QTJ-6n-aaX"/>
+                <outlet property="googleBtn" destination="v49-ri-q0F" id="fIg-fs-b2o"/>
+                <outlet property="nectarLbl" destination="Fsr-Jf-Acl" id="Ohg-5B-WZ5"/>
+                <outlet property="nextBtn" destination="rUd-mq-eSh" id="Wzk-b4-dPQ"/>
+                <outlet property="phoneNumberField" destination="VwZ-o8-zS9" id="cSp-Nt-mgX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="601 1" translatesAutoresizingMaskIntoConstraints="NO" id="JCL-fk-SCv">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="374.33333333333331"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsr-Jf-Acl">
+                    <rect key="frame" x="16" y="415" width="314.33333333333331" height="72"/>
+                    <string key="text">Get your groceries
+with nectar</string>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v49-ri-q0F">
+                    <rect key="frame" x="14.666666666666657" y="639" width="364" height="67"/>
+                    <color key="backgroundColor" red="0.61437100170000003" green="0.91122704740000005" blue="0.57704418899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="       Continue with Google" image="Group 6795">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Yh-2b-qOK">
+                    <rect key="frame" x="14.666666666666657" y="721" width="364" height="67"/>
+                    <color key="backgroundColor" red="0.61437100170000003" green="0.91122704740000005" blue="0.57704418899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="      Continue with Facebook" image="Vector">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or connect with social media" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kH-jJ-2Ag">
+                    <rect key="frame" x="88.333333333333329" y="582" width="216.33333333333337" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-o8-zS9" customClass="PhoneNumberTextField" customModule="PhoneNumberKit">
+                    <rect key="frame" x="16" y="495.00000000000006" width="298" height="54.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUd-mq-eSh">
+                    <rect key="frame" x="322" y="495" width="55" height="55"/>
+                    <color key="backgroundColor" systemColor="systemGray2Color"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="chevron.right" catalog="system">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                    </state>
+                    <connections>
+                        <action selector="nextBtnPressed:" destination="-1" eventType="touchUpInside" id="Ick-WB-nKw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="6Yh-2b-qOK" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0786385" id="35g-Y0-a6b"/>
+                <constraint firstItem="6Yh-2b-qOK" firstAttribute="top" secondItem="v49-ri-q0F" secondAttribute="bottom" constant="15" id="6pB-TI-Qqq"/>
+                <constraint firstItem="VwZ-o8-zS9" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.75827" id="9Yv-BF-YcZ"/>
+                <constraint firstItem="8kH-jJ-2Ag" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BWO-U3-jmV"/>
+                <constraint firstItem="v49-ri-q0F" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.926209" id="BnZ-Mu-HCz"/>
+                <constraint firstItem="v49-ri-q0F" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.0786385" id="CGB-IP-Jdv"/>
+                <constraint firstItem="6Yh-2b-qOK" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.926209" id="DMK-NK-eHR"/>
+                <constraint firstItem="JCL-fk-SCv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GYa-1y-Stg"/>
+                <constraint firstItem="6Yh-2b-qOK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="J33-AI-Y7H"/>
+                <constraint firstItem="VwZ-o8-zS9" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.064" id="KM9-Jp-SHt"/>
+                <constraint firstItem="Fsr-Jf-Acl" firstAttribute="top" secondItem="JCL-fk-SCv" secondAttribute="bottom" constant="40.670000000000002" id="LDP-LB-gs1"/>
+                <constraint firstItem="v49-ri-q0F" firstAttribute="top" secondItem="8kH-jJ-2Ag" secondAttribute="bottom" constant="40" id="LGE-L3-jYX"/>
+                <constraint firstItem="JCL-fk-SCv" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.439358" id="QOO-vd-HAT"/>
+                <constraint firstItem="rUd-mq-eSh" firstAttribute="top" secondItem="Fsr-Jf-Acl" secondAttribute="bottom" constant="8" id="RpL-fc-jiQ"/>
+                <constraint firstItem="Fsr-Jf-Acl" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.084507" id="Y9M-QO-98P"/>
+                <constraint firstItem="JCL-fk-SCv" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ZXk-07-Jeh"/>
+                <constraint firstItem="8kH-jJ-2Ag" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.55" id="cMW-fy-GfT"/>
+                <constraint firstItem="JCL-fk-SCv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cTO-14-PaI"/>
+                <constraint firstItem="Fsr-Jf-Acl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="dhU-dD-KS7"/>
+                <constraint firstItem="VwZ-o8-zS9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ehb-gI-b2Z"/>
+                <constraint firstItem="rUd-mq-eSh" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.139949" id="f5Q-ge-40a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rUd-mq-eSh" secondAttribute="trailing" constant="16" id="ffM-JL-wPT"/>
+                <constraint firstItem="8kH-jJ-2Ag" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.02" id="qUi-9Z-Vmn"/>
+                <constraint firstItem="rUd-mq-eSh" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.064554" id="sCN-b6-HSc"/>
+                <constraint firstItem="Fsr-Jf-Acl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="tBu-ws-Gw2" userLabel="Get your groceries with nectar.leading = Safe Area.leading + 16"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6Yh-2b-qOK" secondAttribute="bottom" constant="30" id="y67-cm-aSZ"/>
+                <constraint firstItem="v49-ri-q0F" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yFi-Ih-coD"/>
+                <constraint firstItem="VwZ-o8-zS9" firstAttribute="top" secondItem="Fsr-Jf-Acl" secondAttribute="bottom" constant="8" id="zoA-Vr-chd"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="601 1" width="413.66665649414062" height="374.33334350585938"/>
+        <image name="Group 6795" width="24" height="25"/>
+        <image name="Vector" width="13" height="25"/>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

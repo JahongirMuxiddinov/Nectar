@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4436AA142AE96BEE00815F3A /* ExploreCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436AA122AE96BEE00815F3A /* ExploreCollectionCell.swift */; };
+		4436AA152AE96BEE00815F3A /* ExploreCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4436AA132AE96BEE00815F3A /* ExploreCollectionCell.xib */; };
+		4436F9C12AEBEA6400A82D58 /* HomeAdvertiseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4436F9BF2AEBEA6400A82D58 /* HomeAdvertiseTableCell.swift */; };
+		4436F9C22AEBEA6400A82D58 /* HomeAdvertiseTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4436F9C02AEBEA6400A82D58 /* HomeAdvertiseTableCell.xib */; };
+		444E694A2A73D66B00CA5FDB /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E69482A73D66B00CA5FDB /* OtpVC.swift */; };
+		444E694B2A73D66B00CA5FDB /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 444E69492A73D66B00CA5FDB /* OtpVC.xib */; };
+		4471864D2AE6C38600C2563E /* GetProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471864C2AE6C38600C2563E /* GetProduct.swift */; };
+		447186512AE6C6A600C2563E /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447186502AE6C6A600C2563E /* URLS.swift */; };
+		448879DF2A7A8EB6007B954B /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448879DD2A7A8EB6007B954B /* SignUpVC.swift */; };
+		448879E02A7A8EB6007B954B /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448879DE2A7A8EB6007B954B /* SignUpVC.xib */; };
+		44941DE12AE2D0D800DE11B6 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DDF2AE2D0D800DE11B6 /* HomePageVC.swift */; };
+		44941DE22AE2D0D800DE11B6 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44941DE02AE2D0D800DE11B6 /* HomePageVC.xib */; };
+		44941DE42AE2D8BD00DE11B6 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DE32AE2D8BD00DE11B6 /* TabbarController.swift */; };
+		44941DE72AE2D9FE00DE11B6 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DE52AE2D9FE00DE11B6 /* ExploreVC.swift */; };
+		44941DE82AE2D9FE00DE11B6 /* ExploreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44941DE62AE2D9FE00DE11B6 /* ExploreVC.xib */; };
+		44941DEB2AE2DA1A00DE11B6 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DE92AE2DA1A00DE11B6 /* CartVC.swift */; };
+		44941DEC2AE2DA1A00DE11B6 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44941DEA2AE2DA1A00DE11B6 /* CartVC.xib */; };
+		44941DEF2AE2DA3700DE11B6 /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DED2AE2DA3700DE11B6 /* FavouriteVC.swift */; };
+		44941DF02AE2DA3700DE11B6 /* FavouriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44941DEE2AE2DA3700DE11B6 /* FavouriteVC.xib */; };
+		44941DF32AE2DA5800DE11B6 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44941DF12AE2DA5800DE11B6 /* AccountVC.swift */; };
+		44941DF42AE2DA5800DE11B6 /* AccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44941DF22AE2DA5800DE11B6 /* AccountVC.xib */; };
+		449424A02A6ACC4E00717634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494249F2A6ACC4E00717634 /* AppDelegate.swift */; };
+		449424A92A6ACC4F00717634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449424A82A6ACC4F00717634 /* Assets.xcassets */; };
+		449424AC2A6ACC4F00717634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449424AA2A6ACC4F00717634 /* LaunchScreen.storyboard */; };
+		449424B52A6ACC9500717634 /* titleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449424B32A6ACC9500717634 /* titleList.swift */; };
+		449424B62A6ACC9500717634 /* titleList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449424B42A6ACC9500717634 /* titleList.xib */; };
+		449424B82A6AD59500717634 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449424B72A6AD59500717634 /* Color+Ext.swift */; };
+		449424BB2A6AD81D00717634 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449424B92A6AD81D00717634 /* WelcomeVC.swift */; };
+		449424BC2A6AD81D00717634 /* WelcomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449424BA2A6AD81D00717634 /* WelcomeVC.xib */; };
+		449424BF2A6DA90400717634 /* AddAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449424BD2A6DA90400717634 /* AddAccountVC.swift */; };
+		449424C02A6DA90400717634 /* AddAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 449424BE2A6DA90400717634 /* AddAccountVC.xib */; };
+		44A520A42AE6665A0096C216 /* ShopTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A520A22AE6665A0096C216 /* ShopTableCell.swift */; };
+		44A520A52AE6665A0096C216 /* ShopTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A520A32AE6665A0096C216 /* ShopTableCell.xib */; };
+		44A520A82AE6682F0096C216 /* ShopCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A520A62AE6682F0096C216 /* ShopCollectionCell.swift */; };
+		44A520A92AE6682F0096C216 /* ShopCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A520A72AE6682F0096C216 /* ShopCollectionCell.xib */; };
+		44B03CA82AEAE48900564004 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B03CA62AEAE48900564004 /* SearchVC.swift */; };
+		44B03CA92AEAE48900564004 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B03CA72AEAE48900564004 /* SearchVC.xib */; };
+		44B03CAC2AEAF18000564004 /* CategoryProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B03CAA2AEAF18000564004 /* CategoryProductsVC.swift */; };
+		44B03CAD2AEAF18000564004 /* CategoryProductsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B03CAB2AEAF18000564004 /* CategoryProductsVC.xib */; };
+		44B03CAF2AEAFC3300564004 /* SmartKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B03CAE2AEAFC3300564004 /* SmartKeyboard.swift */; };
+		44C36A342AEE9D8700F59828 /* CartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C36A322AEE9D8700F59828 /* CartTableCell.swift */; };
+		44C36A352AEE9D8700F59828 /* CartTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C36A332AEE9D8700F59828 /* CartTableCell.xib */; };
+		44D18FEF2A741A37003501EE /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D18FED2A741A37003501EE /* LocationVC.swift */; };
+		44D18FF02A741A37003501EE /* LocationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D18FEE2A741A37003501EE /* LocationVC.xib */; };
+		44D18FF32A7421C2003501EE /* LogingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D18FF12A7421C1003501EE /* LogingVC.swift */; };
+		44D18FF42A7421C2003501EE /* LogingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D18FF22A7421C2003501EE /* LogingVC.xib */; };
+		44E5BB3F2AF0086900A2F12D /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5BB3E2AF0086900A2F12D /* CardModel.swift */; };
+		769543F6525E0CE470BF466B /* Pods_lesson_54_Nectar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0243B5814A48FDC41C51C7A /* Pods_lesson_54_Nectar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4436AA122AE96BEE00815F3A /* ExploreCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionCell.swift; sourceTree = "<group>"; };
+		4436AA132AE96BEE00815F3A /* ExploreCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreCollectionCell.xib; sourceTree = "<group>"; };
+		4436F9BF2AEBEA6400A82D58 /* HomeAdvertiseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdvertiseTableCell.swift; sourceTree = "<group>"; };
+		4436F9C02AEBEA6400A82D58 /* HomeAdvertiseTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeAdvertiseTableCell.xib; sourceTree = "<group>"; };
+		444E69482A73D66B00CA5FDB /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		444E69492A73D66B00CA5FDB /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
+		4471864C2AE6C38600C2563E /* GetProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProduct.swift; sourceTree = "<group>"; };
+		447186502AE6C6A600C2563E /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		448879DD2A7A8EB6007B954B /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		448879DE2A7A8EB6007B954B /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		44941DDF2AE2D0D800DE11B6 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		44941DE02AE2D0D800DE11B6 /* HomePageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageVC.xib; sourceTree = "<group>"; };
+		44941DE32AE2D8BD00DE11B6 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		44941DE52AE2D9FE00DE11B6 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		44941DE62AE2D9FE00DE11B6 /* ExploreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreVC.xib; sourceTree = "<group>"; };
+		44941DE92AE2DA1A00DE11B6 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		44941DEA2AE2DA1A00DE11B6 /* CartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
+		44941DED2AE2DA3700DE11B6 /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		44941DEE2AE2DA3700DE11B6 /* FavouriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteVC.xib; sourceTree = "<group>"; };
+		44941DF12AE2DA5800DE11B6 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		44941DF22AE2DA5800DE11B6 /* AccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountVC.xib; sourceTree = "<group>"; };
+		4494249C2A6ACC4E00717634 /* lesson-54-Nectar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson-54-Nectar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4494249F2A6ACC4E00717634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449424A82A6ACC4F00717634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449424AB2A6ACC4F00717634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449424AD2A6ACC4F00717634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449424B32A6ACC9500717634 /* titleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleList.swift; sourceTree = "<group>"; };
+		449424B42A6ACC9500717634 /* titleList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = titleList.xib; sourceTree = "<group>"; };
+		449424B72A6AD59500717634 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		449424B92A6AD81D00717634 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		449424BA2A6AD81D00717634 /* WelcomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeVC.xib; sourceTree = "<group>"; };
+		449424BD2A6DA90400717634 /* AddAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountVC.swift; sourceTree = "<group>"; };
+		449424BE2A6DA90400717634 /* AddAccountVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddAccountVC.xib; sourceTree = "<group>"; };
+		44A520A22AE6665A0096C216 /* ShopTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableCell.swift; sourceTree = "<group>"; };
+		44A520A32AE6665A0096C216 /* ShopTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTableCell.xib; sourceTree = "<group>"; };
+		44A520A62AE6682F0096C216 /* ShopCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCollectionCell.swift; sourceTree = "<group>"; };
+		44A520A72AE6682F0096C216 /* ShopCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopCollectionCell.xib; sourceTree = "<group>"; };
+		44B03CA62AEAE48900564004 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		44B03CA72AEAE48900564004 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		44B03CAA2AEAF18000564004 /* CategoryProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProductsVC.swift; sourceTree = "<group>"; };
+		44B03CAB2AEAF18000564004 /* CategoryProductsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryProductsVC.xib; sourceTree = "<group>"; };
+		44B03CAE2AEAFC3300564004 /* SmartKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartKeyboard.swift; sourceTree = "<group>"; };
+		44C36A322AEE9D8700F59828 /* CartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableCell.swift; sourceTree = "<group>"; };
+		44C36A332AEE9D8700F59828 /* CartTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableCell.xib; sourceTree = "<group>"; };
+		44D18FED2A741A37003501EE /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		44D18FEE2A741A37003501EE /* LocationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationVC.xib; sourceTree = "<group>"; };
+		44D18FF12A7421C1003501EE /* LogingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogingVC.swift; sourceTree = "<group>"; };
+		44D18FF22A7421C2003501EE /* LogingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogingVC.xib; sourceTree = "<group>"; };
+		44E5BB3E2AF0086900A2F12D /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		B0243B5814A48FDC41C51C7A /* Pods_lesson_54_Nectar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lesson_54_Nectar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0501D0C320D46C0E9488A5F /* Pods-lesson-54-Nectar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lesson-54-Nectar.release.xcconfig"; path = "Target Support Files/Pods-lesson-54-Nectar/Pods-lesson-54-Nectar.release.xcconfig"; sourceTree = "<group>"; };
+		EA34A0ADF09093430B95AA2E /* Pods-lesson-54-Nectar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lesson-54-Nectar.debug.xcconfig"; path = "Target Support Files/Pods-lesson-54-Nectar/Pods-lesson-54-Nectar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449424992A6ACC4E00717634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769543F6525E0CE470BF466B /* Pods_lesson_54_Nectar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3967246283B599FF68F37FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA34A0ADF09093430B95AA2E /* Pods-lesson-54-Nectar.debug.xcconfig */,
+				D0501D0C320D46C0E9488A5F /* Pods-lesson-54-Nectar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		447841FA2AE6BFD70050FE27 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4471864C2AE6C38600C2563E /* GetProduct.swift */,
+				447186502AE6C6A600C2563E /* URLS.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		44941DF52AE2E04800DE11B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E28F2AE93CD700E3EC0B /* onBoarding */,
+				44A1E28E2AE93CCE00E3EC0B /* Main */,
+				44A520A62AE6682F0096C216 /* ShopCollectionCell.swift */,
+				44A520A22AE6665A0096C216 /* ShopTableCell.swift */,
+				4436AA122AE96BEE00815F3A /* ExploreCollectionCell.swift */,
+				4436F9BF2AEBEA6400A82D58 /* HomeAdvertiseTableCell.swift */,
+				44C36A322AEE9D8700F59828 /* CartTableCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44941DF62AE2E06900DE11B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E28C2AE93CB100E3EC0B /* onBoarding */,
+				44A1E28D2AE93CC300E3EC0B /* Main */,
+				44A520A72AE6682F0096C216 /* ShopCollectionCell.xib */,
+				44A520A32AE6665A0096C216 /* ShopTableCell.xib */,
+				4436AA132AE96BEE00815F3A /* ExploreCollectionCell.xib */,
+				4436F9C02AEBEA6400A82D58 /* HomeAdvertiseTableCell.xib */,
+				44C36A332AEE9D8700F59828 /* CartTableCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44941DF72AE2E08000DE11B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44E5BB3D2AF0084100A2F12D /* Coredata */,
+				449424B72A6AD59500717634 /* Color+Ext.swift */,
+				44941DE32AE2D8BD00DE11B6 /* TabbarController.swift */,
+				44B03CAE2AEAFC3300564004 /* SmartKeyboard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		449424932A6ACC4E00717634 = {
+			isa = PBXGroup;
+			children = (
+				4494249E2A6ACC4E00717634 /* lesson-54-Nectar */,
+				4494249D2A6ACC4E00717634 /* Products */,
+				3967246283B599FF68F37FB4 /* Pods */,
+				6DF09C0929A1DF9C9E338C97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4494249D2A6ACC4E00717634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4494249C2A6ACC4E00717634 /* lesson-54-Nectar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4494249E2A6ACC4E00717634 /* lesson-54-Nectar */ = {
+			isa = PBXGroup;
+			children = (
+				447841FA2AE6BFD70050FE27 /* API */,
+				44941DF72AE2E08000DE11B6 /* Models */,
+				44941DF62AE2E06900DE11B6 /* Views */,
+				44941DF52AE2E04800DE11B6 /* Controllers */,
+				4494249F2A6ACC4E00717634 /* AppDelegate.swift */,
+				449424A82A6ACC4F00717634 /* Assets.xcassets */,
+				449424AA2A6ACC4F00717634 /* LaunchScreen.storyboard */,
+				449424AD2A6ACC4F00717634 /* Info.plist */,
+			);
+			path = "lesson-54-Nectar";
+			sourceTree = "<group>";
+		};
+		44A1E28C2AE93CB100E3EC0B /* onBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				449424B42A6ACC9500717634 /* titleList.xib */,
+				449424BA2A6AD81D00717634 /* WelcomeVC.xib */,
+				449424BE2A6DA90400717634 /* AddAccountVC.xib */,
+				444E69492A73D66B00CA5FDB /* OtpVC.xib */,
+				44D18FEE2A741A37003501EE /* LocationVC.xib */,
+				44D18FF22A7421C2003501EE /* LogingVC.xib */,
+				448879DE2A7A8EB6007B954B /* SignUpVC.xib */,
+			);
+			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		44A1E28D2AE93CC300E3EC0B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				44941DE02AE2D0D800DE11B6 /* HomePageVC.xib */,
+				44941DE62AE2D9FE00DE11B6 /* ExploreVC.xib */,
+				44941DEA2AE2DA1A00DE11B6 /* CartVC.xib */,
+				44941DEE2AE2DA3700DE11B6 /* FavouriteVC.xib */,
+				44941DF22AE2DA5800DE11B6 /* AccountVC.xib */,
+				44B03CA72AEAE48900564004 /* SearchVC.xib */,
+				44B03CAB2AEAF18000564004 /* CategoryProductsVC.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		44A1E28E2AE93CCE00E3EC0B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				44941DDF2AE2D0D800DE11B6 /* HomePageVC.swift */,
+				44941DE52AE2D9FE00DE11B6 /* ExploreVC.swift */,
+				44941DE92AE2DA1A00DE11B6 /* CartVC.swift */,
+				44941DED2AE2DA3700DE11B6 /* FavouriteVC.swift */,
+				44941DF12AE2DA5800DE11B6 /* AccountVC.swift */,
+				44B03CA62AEAE48900564004 /* SearchVC.swift */,
+				44B03CAA2AEAF18000564004 /* CategoryProductsVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		44A1E28F2AE93CD700E3EC0B /* onBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				449424B32A6ACC9500717634 /* titleList.swift */,
+				449424B92A6AD81D00717634 /* WelcomeVC.swift */,
+				449424BD2A6DA90400717634 /* AddAccountVC.swift */,
+				444E69482A73D66B00CA5FDB /* OtpVC.swift */,
+				44D18FED2A741A37003501EE /* LocationVC.swift */,
+				44D18FF12A7421C1003501EE /* LogingVC.swift */,
+				448879DD2A7A8EB6007B954B /* SignUpVC.swift */,
+			);
+			path = onBoarding;
+			sourceTree = "<group>";
+		};
+		44E5BB3D2AF0084100A2F12D /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				44E5BB3E2AF0086900A2F12D /* CardModel.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		6DF09C0929A1DF9C9E338C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0243B5814A48FDC41C51C7A /* Pods_lesson_54_Nectar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4494249B2A6ACC4E00717634 /* lesson-54-Nectar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449424B02A6ACC4F00717634 /* Build configuration list for PBXNativeTarget "lesson-54-Nectar" */;
+			buildPhases = (
+				99FD4A0148C271FA194202C5 /* [CP] Check Pods Manifest.lock */,
+				449424982A6ACC4E00717634 /* Sources */,
+				449424992A6ACC4E00717634 /* Frameworks */,
+				4494249A2A6ACC4E00717634 /* Resources */,
+				800948071ED8220809497C70 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lesson-54-Nectar";
+			productName = "lesson-54-Nectar";
+			productReference = 4494249C2A6ACC4E00717634 /* lesson-54-Nectar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449424942A6ACC4E00717634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4494249B2A6ACC4E00717634 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 449424972A6ACC4E00717634 /* Build configuration list for PBXProject "lesson-54-Nectar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449424932A6ACC4E00717634;
+			productRefGroup = 4494249D2A6ACC4E00717634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4494249B2A6ACC4E00717634 /* lesson-54-Nectar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4494249A2A6ACC4E00717634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C36A352AEE9D8700F59828 /* CartTableCell.xib in Resources */,
+				44941DF42AE2DA5800DE11B6 /* AccountVC.xib in Resources */,
+				44941DE22AE2D0D800DE11B6 /* HomePageVC.xib in Resources */,
+				44A520A52AE6665A0096C216 /* ShopTableCell.xib in Resources */,
+				449424AC2A6ACC4F00717634 /* LaunchScreen.storyboard in Resources */,
+				449424A92A6ACC4F00717634 /* Assets.xcassets in Resources */,
+				444E694B2A73D66B00CA5FDB /* OtpVC.xib in Resources */,
+				449424B62A6ACC9500717634 /* titleList.xib in Resources */,
+				44941DF02AE2DA3700DE11B6 /* FavouriteVC.xib in Resources */,
+				44B03CA92AEAE48900564004 /* SearchVC.xib in Resources */,
+				44941DE82AE2D9FE00DE11B6 /* ExploreVC.xib in Resources */,
+				4436AA152AE96BEE00815F3A /* ExploreCollectionCell.xib in Resources */,
+				449424BC2A6AD81D00717634 /* WelcomeVC.xib in Resources */,
+				449424C02A6DA90400717634 /* AddAccountVC.xib in Resources */,
+				44B03CAD2AEAF18000564004 /* CategoryProductsVC.xib in Resources */,
+				448879E02A7A8EB6007B954B /* SignUpVC.xib in Resources */,
+				4436F9C22AEBEA6400A82D58 /* HomeAdvertiseTableCell.xib in Resources */,
+				44D18FF42A7421C2003501EE /* LogingVC.xib in Resources */,
+				44A520A92AE6682F0096C216 /* ShopCollectionCell.xib in Resources */,
+				44941DEC2AE2DA1A00DE11B6 /* CartVC.xib in Resources */,
+				44D18FF02A741A37003501EE /* LocationVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		800948071ED8220809497C70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lesson-54-Nectar/Pods-lesson-54-Nectar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lesson-54-Nectar/Pods-lesson-54-Nectar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lesson-54-Nectar/Pods-lesson-54-Nectar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99FD4A0148C271FA194202C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lesson-54-Nectar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449424982A6ACC4E00717634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A520A42AE6665A0096C216 /* ShopTableCell.swift in Sources */,
+				4436AA142AE96BEE00815F3A /* ExploreCollectionCell.swift in Sources */,
+				44941DE12AE2D0D800DE11B6 /* HomePageVC.swift in Sources */,
+				44D18FEF2A741A37003501EE /* LocationVC.swift in Sources */,
+				448879DF2A7A8EB6007B954B /* SignUpVC.swift in Sources */,
+				44E5BB3F2AF0086900A2F12D /* CardModel.swift in Sources */,
+				444E694A2A73D66B00CA5FDB /* OtpVC.swift in Sources */,
+				44B03CA82AEAE48900564004 /* SearchVC.swift in Sources */,
+				4436F9C12AEBEA6400A82D58 /* HomeAdvertiseTableCell.swift in Sources */,
+				44941DEB2AE2DA1A00DE11B6 /* CartVC.swift in Sources */,
+				44B03CAF2AEAFC3300564004 /* SmartKeyboard.swift in Sources */,
+				4471864D2AE6C38600C2563E /* GetProduct.swift in Sources */,
+				44D18FF32A7421C2003501EE /* LogingVC.swift in Sources */,
+				44C36A342AEE9D8700F59828 /* CartTableCell.swift in Sources */,
+				449424B52A6ACC9500717634 /* titleList.swift in Sources */,
+				44A520A82AE6682F0096C216 /* ShopCollectionCell.swift in Sources */,
+				44941DE72AE2D9FE00DE11B6 /* ExploreVC.swift in Sources */,
+				449424A02A6ACC4E00717634 /* AppDelegate.swift in Sources */,
+				44941DE42AE2D8BD00DE11B6 /* TabbarController.swift in Sources */,
+				44941DEF2AE2DA3700DE11B6 /* FavouriteVC.swift in Sources */,
+				44B03CAC2AEAF18000564004 /* CategoryProductsVC.swift in Sources */,
+				44941DF32AE2DA5800DE11B6 /* AccountVC.swift in Sources */,
+				447186512AE6C6A600C2563E /* URLS.swift in Sources */,
+				449424B82A6AD59500717634 /* Color+Ext.swift in Sources */,
+				449424BB2A6AD81D00717634 /* WelcomeVC.swift in Sources */,
+				449424BF2A6DA90400717634 /* AddAccountVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449424AA2A6ACC4F00717634 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449424AB2A6ACC4F00717634 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449424AE2A6ACC4F00717634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449424AF2A6ACC4F00717634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449424B12A6ACC4F00717634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA34A0ADF09093430B95AA2E /* Pods-lesson-54-Nectar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTJA5RTJZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lesson-54-Nectar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jahongir.lesson-54-Nectar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449424B22A6ACC4F00717634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0501D0C320D46C0E9488A5F /* Pods-lesson-54-Nectar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TTJA5RTJZN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lesson-54-Nectar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jahongir.lesson-54-Nectar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449424972A6ACC4E00717634 /* Build configuration list for PBXProject "lesson-54-Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449424AE2A6ACC4F00717634 /* Debug */,
+				449424AF2A6ACC4F00717634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449424B02A6ACC4F00717634 /* Build configuration list for PBXNativeTarget "lesson-54-Nectar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449424B12A6ACC4F00717634 /* Debug */,
+				449424B22A6ACC4F00717634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449424942A6ACC4E00717634 /* Project object */;
+}
